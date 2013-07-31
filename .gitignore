@@ -3,3 +3,10 @@
 # mac osx files
 ._*
 .DS_STORE
+
+# assets, too big for version control
+sources/appalaches_nola/images/0000-1000
+sources/appalaches_nola/images/1001-2000
+sources/appalaches_nola/images/2001-3000
+sources/appalaches_nola/images/3001-4000
+sources/appalaches_nola/images/4001-5000
