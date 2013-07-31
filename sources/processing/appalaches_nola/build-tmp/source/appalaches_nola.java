@@ -293,34 +293,23 @@ public void setImagePosition(ImageAsset img)
 							-(width * 0.25f), 
 							(width * 0.25f)
 						);
-		// img.x = 0;
 	}
 	else if(_screen == RIGHT_SCREEN)
 	{
-		// img.x = 1440;
 		img.x = random 	(
 							1440 - (width * 0.25f),
 							1440 + (width * 0.25f)
 						);
 	}
-	// println("img.x: " + img.x);
 	toggleScreen();
-	// img.x = width * 0.5;
-	
-	// img.y = img.maxY + (random(height) * 0.5);
-	img.y = height * 0.5f; 
-	
+	img.y = img.maxY + (random(height) * 0.5f);
 	img.z = -random(160, 320);
-	
 	img.rotation = random(360);
 }
 
 
 public void drawImage(ImageAsset img)
 {
-	// println("--- drawImage() ---");
-	// println("img: " + img);
-
 	// draw
 	pushMatrix();
 

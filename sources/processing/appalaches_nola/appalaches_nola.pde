@@ -128,7 +128,6 @@ void toggleScreen()
 	{
 		_screen = LEFT_SCREEN;
 	}
-	println("_screen: " + _screen);
 }
 
 
